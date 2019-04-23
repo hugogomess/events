@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+	<meta charset="utf-8"/>
+	<title>Eventos - Novo</title>
+</head>
+<body>
+	<h1>Novo Evento</h1>
+	
+	<form method="post" action="/eventos/novo">
+		<label for="name">Nome</label>
+		<input type="text" value="" name="name" id="name"/><br/><br/>
+		
+		<label for="local">Local</label>
+		<input type="text" value="" name="local" id="local"/><br/><br/>
+		
+		<label for="date">Data</label>
+		<input type="date" value="" name="date" id="date"/><br/><br/>
+		
+		<label for="hour">Horário</label>
+		<input type="text" value="" name="hour" id="hour"/><br/><br/>
+		
+		<button type="submit">Salvar Evento</button>
+	</form>
+</body>
+</html>

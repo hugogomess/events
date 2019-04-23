@@ -1,6 +1,6 @@
 # Events
 
-Events system using springboot 
+spring boot events platform
 
 ## Dependencies
 
